@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Akbar Achmad Budiman | Portfolio Software Engineer</title>
+    <meta name="description" content="Portfolio Akbar Achmad Budiman, mahasiswa Sistem Informasi dan calon software engineer.">
+    <meta name="keywords" content="portfolio, software engineer, web developer, flutter, laravel, sistem informasi">
+    <meta name="author" content="Akbar Achmad Budiman">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Akbar Achmad Budiman | Portfolio Software Engineer">
+    <meta property="og:description" content="Mahasiswa Sistem Informasi & Calon Software Engineer dengan passion untuk kode yang bersih dan pengalaman pengguna yang elegan.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourportfolio.com">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header class="header">
+    <div class="container">
+        <nav class="navbar">
+            <a href="#home" class="logo">Akbar<span> Achmad</span> Budiman</a>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#proyek">Proyek</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+
+    <!-- ================= HERO ================= -->
+    <section id="home" class="section hero reveal">
+        <div class="container">
+            <div class="hero-content">
+                <h1>
+                    Halo, saya <span class="highlight">Akbar Achmad Budiman</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Mahasiswa Sistem Informasi & Calon Software Engineer dengan passion untuk kode yang bersih dan pengalaman pengguna yang elegan.
+                </p>
+                
+                <div class="hero-btns">
+                    <a href="#proyek" class="btn btn-primary">
+                        <i class="fas fa-code"></i> Lihat Karya Saya
+                    </a>
+                    <a href="#kontak" class="btn btn-outline">
+                        <i class="fas fa-envelope"></i> Hubungi Saya
+                    </a>
+                </div>
+                
+                <div class="hero-scroll">
+                    <a href="#tentang" class="scroll-down" aria-label="Scroll ke bawah">
+                        <i class="fas fa-chevron-down"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= TENTANG ================= -->
+    <section id="tentang" class="section tentang reveal">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tentang Saya</h2>
+                <p>Kenali saya lebih dalam</p>
+            </div>
+
+            <div class="tentang-content">
+                <div class="tentang-text-content">
+                    <p class="tentang-text">
+                        Saya adalah mahasiswa Sistem Informasi dengan ketertarikan kuat pada software engineering, pengembangan web, dan desain sistem. Saya senang membangun aplikasi yang tidak hanya fungsional, tetapi juga visual yang bersih dan ramah pengguna.
+                    </p>
+                    <p class="tentang-text">
+                        Saya terus belajar teknologi baru dan meningkatkan keterampilan saya untuk tetap up-to-date dengan tren terbaru dalam pengembangan perangkat lunak. Tujuan saya adalah menciptakan solusi digital yang berdampak untuk menyelesaikan masalah dunia nyata.
+                    </p>
+                    
+                    <h3 class="skills-title">Keterampilan Teknis</h3>
+                    <div class="skills">
+                        <span class="skill-card">HTML & CSS</span>
+                        <span class="skill-card">JavaScript</span>
+                        <span class="skill-card">Flutter</span>
+                        <span class="skill-card">Laravel</span>
+                        <span class="skill-card">UI / UX Design</span>
+                        <span class="skill-card">Git & GitHub</span>
+                        <span class="skill-card">Figma</span>
+                        <span class="skill-card">MySQL</span>
+                    </div>
+                </div>
+                
+                <div class="tentang-image">
+                    <div class="image-placeholder">
+                        <div class="image-content">
+                            <i class="fas fa-user"></i>
+                            <div class="image-overlay">
+                                <h3>Akbar Achmad Budiman</h3>
+                                <p>Software Engineer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= PROYEK ================= -->
+    <section id="proyek" class="section proyek reveal">
+        <div class="container">
+            <div class="section-header">
+                <h2>Proyek</h2>
+                <p>Beberapa hal yang telah saya buat</p>
+            </div>
+
+            <div class="proyek-list">
+                <!-- Proyek 1: Cleanify Project -->
+                <article class="proyek-card">
+                    <div class="card-inner">
+                        <!-- Bagian Depan Kartu -->
+                        <div class="card-front">
+                            <div class="proyek-image proyek-1"></div>
+                            <div class="proyek-content">
+                                <div class="proyek-header">
+                                    <h3>Cleanify Project</h3>
+                                    <button class="proyek-toggle-btn" title="Lihat detail" aria-label="Lihat detail proyek">
+                                        <i class="fas fa-info-circle"></i>
+                                    </button>
+                                </div>
+                                <div class="proyek-preview">
+                                    <p>Desain antarmuka modern untuk aplikasi Cleanify, berdasarkan prototipe Figma.</p>
+                                    <div class="proyek-tech">
+                                        <span class="tech-tag">Figma</span>
+                                        <span class="tech-tag">UI/UX Design</span>
+                                        <span class="tech-tag">Prototyping</span>
+                                        <span class="tech-tag">Mobile Design</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Bagian Belakang Kartu -->
+                        <div class="card-back">
+                            <button class="proyek-toggle-btn" title="Kembali ke depan" aria-label="Kembali ke depan">
+                                <i class="fas fa-undo"></i>
+                            </button>
+                            <div class="card-back-content">
+                                <h3>Cleanify Project</h3>
+                                <h4>Detail Proyek</h4>
+                                <p>Desain antarmuka modern untuk aplikasi Cleanify dengan fokus pada:</p>
+                                <ul>
+                                    <li>Desain UI yang bersih dan minimalis</li>
+                                    <li>Prototipe interaktif dengan Figma</li>
+                                    <li>User flow yang intuitif</li>
+                                    <li>Design system yang konsisten</li>
+                                    <li>Komponen reusable</li>
+                                    <li>Mobile-first approach</li>
+                                    <li>User testing feedback</li>
+                                </ul>
+                                <h4>Teknologi yang Digunakan</h4>
+                                <div class="proyek-tech">
+                                    <span class="tech-tag">Figma</span>
+                                    <span class="tech-tag">UI/UX Design</span>
+                                    <span class="tech-tag">Prototyping</span>
+                                    <span class="tech-tag">Wireframing</span>
+                                    <span class="tech-tag">Design System</span>
+                                    <span class="tech-tag">User Research</span>
+                                    <span class="tech-tag">Usability Testing</span>
+                                </div>
+                                <h4>Fitur Utama</h4>
+                                <ul>
+                                    <li>Desain untuk multiple screens</li>
+                                    <li>Interactive prototypes</li>
+                                    <li>Design documentation</li>
+                                    <li>Color palette & typography</li>
+                                    <li>Icon set customization</li>
+                                </ul>
+                                <div class="proyek-links">
+                                    <a href="https://github.com/Oleee04/Cleanify-Project" target="_blank" class="proyek-link" rel="noopener">
+                                        <i class="fab fa-github"></i> Kode Sumber
+                                    </a>
+                                    <a href="https://www.figma.com/design/YOUR_PROTOTYPE_LINK" target="_blank" class="proyek-link" rel="noopener">
+                                        <i class="fab fa-figma"></i> Figma Prototype
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Proyek 2: BPSDM Project -->
+                <article class="proyek-card">
+                    <div class="card-inner">
+                        <!-- Bagian Depan Kartu -->
+                        <div class="card-front">
+                            <div class="proyek-image proyek-2"></div>
+                            <div class="proyek-content">
+                                <div class="proyek-header">
+                                    <h3>BPSDM Project</h3>
+                                    <button class="proyek-toggle-btn" title="Lihat detail" aria-label="Lihat detail proyek">
+                                        <i class="fas fa-info-circle"></i>
+                                    </button>
+                                </div>
+                                <div class="proyek-preview">
+                                    <p>Desain UI/UX untuk Sistem Informasi BPSDM — fokus pada antarmuka responsif dan intuitif untuk aplikasi manajemen.</p>
+                                    <div class="proyek-tech">
+                                        <span class="tech-tag">UI/UX</span>
+                                        <span class="tech-tag">Web Design</span>
+                                        <span class="tech-tag">Responsive</span>
+                                        <span class="tech-tag">Figma</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Bagian Belakang Kartu -->
+                        <div class="card-back">
+                            <button class="proyek-toggle-btn" title="Kembali ke depan" aria-label="Kembali ke depan">
+                                <i class="fas fa-undo"></i>
+                            </button>
+                            <div class="card-back-content">
+                                <h3>BPSDM Project</h3>
+                                <h4>Detail Proyek</h4>
+                                <p>Desain UI/UX untuk Sistem Informasi BPSDM dengan fokus pada:</p>
+                                <ul>
+                                    <li>Desain dashboard yang informatif</li>
+                                    <li>Data visualization yang jelas</li>
+                                    <li>User-friendly forms</li>
+                                    <li>Responsive design untuk semua device</li>
+                                    <li>Accessibility considerations</li>
+                                    <li>Consistent design patterns</li>
+                                    <li>Efficient user workflows</li>
+                                </ul>
+                                <h4>Teknologi yang Digunakan</h4>
+                                <div class="proyek-tech">
+                                    <span class="tech-tag">Figma</span>
+                                    <span class="tech-tag">Adobe XD</span>
+                                    <span class="tech-tag">Responsive Design</span>
+                                    <span class="tech-tag">Wireframing</span>
+                                    <span class="tech-tag">Prototyping</span>
+                                    <span class="tech-tag">User Personas</span>
+                                    <span class="tech-tag">Design Thinking</span>
+                                </div>
+                                <h4>Fitur Utama</h4>
+                                <ul>
+                                    <li>Admin dashboard with analytics</li>
+                                    <li>Data management interface</li>
+                                    <li>Report generation modules</li>
+                                    <li>Multi-user role designs</li>
+                                    <li>Mobile-responsive layouts</li>
+                                </ul>
+                                <div class="proyek-links">
+                                    <a href="https://github.com/Oleee04/BPSDM-PROJECT" target="_blank" class="proyek-link" rel="noopener">
+                                        <i class="fab fa-github"></i> Kode Sumber
+                                    </a>
+                                    <a href="https://www.figma.com/design/YOUR_BPSDM_LINK" target="_blank" class="proyek-link" rel="noopener">
+                                        <i class="fab fa-figma"></i> Design Mockup
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Proyek 3: Merdeka Flower Online Shop -->
+                <article class="proyek-card">
+                    <div class="card-inner">
+                        <!-- Bagian Depan Kartu -->
+                        <div class="card-front">
+                            <div class="proyek-image proyek-3"></div>
+                            <div class="proyek-content">
+                                <div class="proyek-header">
+                                    <h3>Merdeka Flower Online Shop</h3>
+                                    <button class="proyek-toggle-btn" title="Lihat detail" aria-label="Lihat detail proyek">
+                                        <i class="fas fa-info-circle"></i>
+                                    </button>
+                                </div>
+                                <div class="proyek-preview">
+                                    <p>Website e-commerce tanaman hias "Merdeka Flower" berbasis Laravel dengan integrasi Midtrans untuk pembayaran online.</p>
+                                    <div class="proyek-tech">
+                                        <span class="tech-tag">Laravel</span>
+                                        <span class="tech-tag">PHP</span>
+                                        <span class="tech-tag">MySQL</span>
+                                        <span class="tech-tag">Midtrans</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Bagian Belakang Kartu -->
+                        <div class="card-back">
+                            <button class="proyek-toggle-btn" title="Kembali ke depan" aria-label="Kembali ke depan">
+                                <i class="fas fa-undo"></i>
+                            </button>
+                            <div class="card-back-content">
+                                <h3>Merdeka Flower Online Shop</h3>
+                                <h4>Detail Proyek</h4>
+                                <p>Website e-commerce lengkap untuk toko tanaman hias dengan fitur:</p>
+                                <ul>
+                                    <li>Katalog produk dengan kategori tanaman</li>
+                                    <li>Sistem keranjang belanja</li>
+                                    <li>Checkout dengan integrasi Midtrans</li>
+                                    <li>Manajemen pesanan pelanggan</li>
+                                    <li>Admin dashboard untuk manajemen produk</li>
+                                    <li>User authentication & registration</li>
+                                    <li>Product search & filtering</li>
+                                </ul>
+                                <h4>Teknologi yang Digunakan</h4>
+                                <div class="proyek-tech">
+                                    <span class="tech-tag">Laravel 10</span>
+                                    <span class="tech-tag">PHP 8.2</span>
+                                    <span class="tech-tag">MySQL</span>
+                                    <span class="tech-tag">Bootstrap 5</span>
+                                    <span class="tech-tag">Midtrans API</span>
+                                    <span class="tech-tag">jQuery</span>
+                                    <span class="tech-tag">RESTful API</span>
+                                </div>
+                                <h4>Fitur Utama</h4>
+                                <ul>
+                                    <li>Product catalog with categories</li>
+                                    <li>Shopping cart system</li>
+                                    <li>Online payment integration</li>
+                                    <li>Order tracking</li>
+                                    <li>Customer reviews & ratings</li>
+                                    <li>Admin product management</li>
+                                    <li>Responsive design</li>
+                                </ul>
+                                <div class="proyek-links">
+                                    <a href="https://github.com/Oleee04/Merdeka-Flower-Online-Shop" target="_blank" class="proyek-link" rel="noopener">
+                                        <i class="fab fa-github"></i> Kode Sumber
+                                    </a>
+                                    <a href="https://merdeka-flower.demo" target="_blank" class="proyek-link" rel="noopener">
+                                        <i class="fas fa-external-link-alt"></i> Live Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= KONTAK ================= -->
+    <section id="kontak" class="section kontak reveal">
+        <div class="container">
+            <div class="section-header">
+                <h2>Hubungi Saya</h2>
+                <p>Mari berhubungan dan berkolaborasi</p>
+            </div>
+
+            <div class="kontak-wrapper">
+                <div class="kontak-form-wrapper">
+                    <form id="kontakForm" class="kontak-form">
+                        <div class="form-group">
+                            <label for="nama">Nama Lengkap</label>
+                            <input type="text" id="nama" name="nama" placeholder="Nama Anda" required />
+                            <span class="form-error"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Alamat Email</label>
+                            <input type="email" id="email" name="email" placeholder="anda@email.com" required />
+                            <span class="form-error"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subjek">Subjek</label>
+                            <input type="text" id="subjek" name="subjek" placeholder="Subjek pesan" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="pesan">Pesan</label>
+                            <textarea id="pesan" name="pesan" placeholder="Tulis pesan Anda di sini..." required rows="5"></textarea>
+                            <span class="form-error"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary submit-btn">
+                            <i class="fas fa-paper-plane"></i> Kirim Pesan
+                        </button>
+                        <div id="result" class="form-result"></div>
+                    </form>
+                </div>
+
+                <div class="kontak-info-wrapper">
+                    <div class="kontak-info">
+                        <h3>Informasi Kontak</h3>
+                        <p>Saya selalu terbuka untuk diskusi tentang proyek baru, kesempatan kerja, atau kolaborasi.</p>
+                        
+                        <div class="kontak-items">
+                            <a href="mailto:rzrakbar345@gmail.com" class="kontak-item" aria-label="Email">
+                                <div class="kontak-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="kontak-text">
+                                    <span class="kontak-label">Email</span>
+                                    <span class="kontak-value">rzrakbar345@gmail.com</span>
+                                </div>
+                            </a>
+                            
+                            <a href="https://www.linkedin.com/in/akbar-achmad-25b72234a" target="_blank" class="kontak-item" rel="noopener" aria-label="LinkedIn">
+                                <div class="kontak-icon">
+                                    <i class="fab fa-linkedin"></i>
+                                </div>
+                                <div class="kontak-text">
+                                    <span class="kontak-label">LinkedIn</span>
+                                    <span class="kontak-value">Akbar Achmad Budiman</span>
+                                </div>
+                            </a>
+                            
+                            <a href="https://github.com/Oleee04" target="_blank" class="kontak-item" rel="noopener" aria-label="GitHub">
+                                <div class="kontak-icon">
+                                    <i class="fab fa-github"></i>
+                                </div>
+                                <div class="kontak-text">
+                                    <span class="kontak-label">GitHub</span>
+                                    <span class="kontak-value">@Oleee04</span>
+                                </div>
+                            </a>
+                            
+                            <div class="kontak-item">
+                                <div class="kontak-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="kontak-text">
+                                    <span class="kontak-label">Lokasi</span>
+                                    <span class="kontak-value">Indonesia</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="kontak-sosmed">
+                            <h4>Ikuti Saya</h4>
+                            <div class="sosmed-links">
+                                <a href="https://www.linkedin.com/in/akbar-achmad-25b72234a" target="_blank" class="sosmed-link" rel="noopener" aria-label="LinkedIn">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://github.com/Oleee04" target="_blank" class="sosmed-link" rel="noopener" aria-label="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.instagram.com/olenzo87/profilecard/?igsh=ZGJobjBsYzB5aWxi" target="_blank" class="sosmed-link" rel="noopener" aria-label="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <a href="#home" class="logo">Akbar<span> Achmad</span> Budiman</a>
+            </div>
+            
+            <div class="footer-links">
+                <div class="footer-section">
+                    <h4>Navigasi</h4>
+                    <ul>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#tentang">Tentang</a></li>
+                        <li><a href="#proyek">Proyek</a></li>
+                        <li><a href="#kontak">Kontak</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Keterampilan</h4>
+                    <ul>
+                        <li><a href="#proyek">Web Development</a></li>
+                        <li><a href="#proyek">Mobile Apps</a></li>
+                        <li><a href="#proyek">UI/UX Design</a></li>
+                        <li><a href="#proyek">Backend Systems</a></li>
+                    </ul>
+                </div>
+                
+            
+            <div class="footer-bottom">
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/akbar-achmad-25b72234a" target="_blank" class="social-link" rel="noopener" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/Oleee04" target="_blank" class="social-link" rel="noopener" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.instagram.com/olenzo87/profilecard/?igsh=ZGJobjBsYzB5aWxi" target="_blank" class="social-link" rel="noopener" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                
+                <p class="copyright">
+                    © <span id="currentYear">2025</span> Akbar Achmad Budiman. All rights reserved.
+                </p>
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Back to Top Button -->
+<button class="back-to-top-btn" aria-label="Kembali ke atas">
+    <i class="fas fa-arrow-up"></i>
+</button>
+
+<!-- JavaScript -->
+<script src="js/script.js"></script>
+
+<script>
+    // Set current year in footer
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
